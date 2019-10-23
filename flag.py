@@ -9,8 +9,10 @@ screen = pygame.display.set_mode(size)
 def draw_flag():
     gray = pygame.Color("#777777")
     white = pygame.Color("#ffffff")
+    blue = pygame.Color("#0000ff")
     pygame.draw.rect(screen, gray, [(20, 20), (5, 280)], 0)
     pygame.draw.rect(screen, white, [(25, 20), (200, 80)], 0)
+    pygame.draw.rect(screen, blue, [(25, 100), (200, 80)], 0)
 
 
 draw_flag()
